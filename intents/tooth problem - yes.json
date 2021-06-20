@@ -1,0 +1,47 @@
+{
+  "id": "1679a619-f36b-4412-93ec-3b41ea684dff",
+  "parentId": "1788ec2b-5e91-4918-a5ae-a96904a20550",
+  "rootParentId": "1788ec2b-5e91-4918-a5ae-a96904a20550",
+  "name": "tooth problem - yes",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "toothproblem-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "toothproblem.toothproblem-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Apply a cold compress. In general, there are two ways to stop or blunt toothache pain. Take an anti-inflammatory. ...\nRinse with salt water."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

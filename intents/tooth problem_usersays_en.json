@@ -1,0 +1,29 @@
+[
+  {
+    "id": "127c8832-b0f4-4002-a1fa-0365ac1904d0",
+    "data": [
+      {
+        "text": "tooth problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9dbcfa8-bd28-4e74-8e08-b0893013242e",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

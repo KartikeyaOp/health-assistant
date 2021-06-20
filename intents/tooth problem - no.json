@@ -1,0 +1,47 @@
+{
+  "id": "7feb29e3-9da9-47a0-94c6-8db292f0fa80",
+  "parentId": "1788ec2b-5e91-4918-a5ae-a96904a20550",
+  "rootParentId": "1788ec2b-5e91-4918-a5ae-a96904a20550",
+  "name": "tooth problem - no",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "toothproblem-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "toothproblem.toothproblem-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do two time brush day and night and maintain you health well"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

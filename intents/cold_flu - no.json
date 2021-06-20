@@ -1,0 +1,47 @@
+{
+  "id": "b056eb9b-7694-43b6-9c12-2e0140c2993f",
+  "parentId": "26b30de0-b20d-491c-bfdc-b160f85af863",
+  "rootParentId": "26b30de0-b20d-491c-bfdc-b160f85af863",
+  "name": "cold/flu - no",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "coldflu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coldflu.coldflu-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Happy to hear that you don\u0027t have the symptoms of covid -19 now you have to do rest and eat  healthy food DOSAGE take this after every 6-4 hours"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

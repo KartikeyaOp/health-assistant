@@ -1,0 +1,47 @@
+{
+  "id": "e5a0df7e-42c9-453a-8f94-b65409f049b4",
+  "parentId": "26b30de0-b20d-491c-bfdc-b160f85af863",
+  "rootParentId": "26b30de0-b20d-491c-bfdc-b160f85af863",
+  "name": "cold/flu - yes",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "coldflu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coldflu.coldflu-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "diagnosis symptoms are related to covid-19"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

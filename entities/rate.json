@@ -1,0 +1,9 @@
+{
+  "id": "1fd24dba-73a9-4ed0-b5b5-6dc7b588e8ef",
+  "name": "rate",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
